@@ -1,6 +1,6 @@
 import React from "react";
-import { DENOMINATIONS } from "../App";
 import Denomination from "./Denomination";
+import { DENOMINATIONS } from "../utils";
 
 export default function OutputSection({ changeDue, change }) {
   return (

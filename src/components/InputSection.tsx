@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NumberInput from "./NumberInput";
-import { DENOMINATIONS } from "../App";
+import { DENOMINATIONS } from "../utils";
 
 export default function InputSection({ setChange, setChangeDue }) {
   const [amountDue, setAmountDue] = useState("");
